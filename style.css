@@ -8,6 +8,7 @@
     list-style: none;
     box-sizing: border-box;
     font-family:'David Libre', serif;
+    text-transform: uppercase; 
   }
 :root{
   --background: var(--color4);
@@ -27,6 +28,11 @@ header{
   display: flex;
   align-items: center;
   justify-content:space-between;
-  padding: 0 80px;
+  padding: 0 50px;
   word-spacing: 2px;
+}
+header .logo{
+  margin: 0;   
+  color:#bf5555;
+  font-size: 30px;
 }
