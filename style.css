@@ -3,15 +3,16 @@
   *{
     padding: 0;
     margin: 0;
+    list-style: none;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family:'David Libre', serif;
   }
 :root{
-    --background: #e1c0c5;
+  background: var(--color1);
 }
 .body{
-  font-family:'David Libre', serif;
   font-weight: 500;
   --color1: #e1c0c5;
   --color2: #74B9F4;
