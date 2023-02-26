@@ -1,11 +1,21 @@
   @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
 
   *{
-
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
   }
 :root{
-    font-family:'David Libre', serif;
+    --background: #e1c0c5;
 }
 .body{
-    
+  font-family:'David Libre', serif;
+  font-weight: 500;
+  --color1: #e1c0c5;
+  --color2: #74B9F4;
+  --color3: #f0f8ff;
+  --color4: #bf5555;
+  --color5: #b2dbe4;
 }
