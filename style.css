@@ -35,7 +35,6 @@ header .logo{
   margin: 0;   
   color:#bf5555;
   font-size: 20px;
-  cursor: pointer;
 }
 header nav ul{
   display: flex;
@@ -49,4 +48,8 @@ header nav li a{
   text-decoration: none;
   display: inline-block;
   border: 3px solid transparent;
+}
+header nav li a:hover{
+  background: #f0f8ff;
+  color: #7da789;
 }
