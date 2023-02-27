@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family:'David Libre', serif;
     text-transform: uppercase; 
+
   }
 :root{
   --background: var(--color4);
@@ -36,12 +37,18 @@ header{
   justify-content:space-between;
   padding: 0 50px;
   word-spacing: 2px;
+  z-index: 1000;
 }
-header .logo{
+ .logo{
   margin: 0;   
   color:#bf5555;
   font-size: 20px;
   text-transform: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
 }
 header nav ul{
   display: flex;
@@ -56,6 +63,7 @@ header nav li a{
   display: inline-block;
   border: 3px solid transparent;
   transition: 0.3s;
+  line-height: 100px;
 }
 header nav li a:hover{
   background: #f0f8ff;
@@ -77,8 +85,7 @@ h2 {
   color: #e0ece3;
   text-align: center;
   text-transform: none;
-  padding: 40px;
-  background-color:#bf5555;
+  padding: 10px;
 }
 
 h3, h4{
@@ -95,4 +102,7 @@ p {
   line-height: 1.5;
   color: green;
   text-transform: none;
+}
+body{
+  background-color: #b5aaaa;
 }
