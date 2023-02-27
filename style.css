@@ -153,6 +153,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr auto minmax(800px , 1fr) 1fr;
   }
+
   .logo{
       grid-column: 1 / div 3;
   }
@@ -161,7 +162,6 @@ nav a:hover{
       grid-column: 3 / 4;
       display: flex;
       justify-content: flex-end;
-      align-items: center;
   }
   nav ul{
       display: flex;
