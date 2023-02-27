@@ -48,6 +48,7 @@ header nav li a{
   text-decoration: none;
   display: inline-block;
   border: 3px solid transparent;
+  transition: 0.3s;
 }
 header nav li a:hover{
   background: #f0f8ff;
