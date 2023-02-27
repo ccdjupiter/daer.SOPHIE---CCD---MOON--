@@ -13,6 +13,12 @@
 :root{
   --background: var(--color4);
 }
+
+*::before , *::after{
+    box-sizing: border-box;
+}
+
+/*!-- navigation CSS Styling begins */ 
 .body{
   font-weight: 500;
   --color1: #e1c0c5;
@@ -54,14 +60,134 @@ header nav li a:hover{
   background: #f0f8ff;
   color: #7da789;
 }
+
+.nav-hamburger{
+  display: none;
+}
+.nav-hamburger-check{
+  align-items: center;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  border: 1px #8b4513;
+  height: 100%;
+}
+.nav-hamburger-check div,
+.nav-hamburger-check div::before ,
+.nav-hamburger-check div::after{
+  display: block;
+  background: #f0ffff;
+  height: 2.5px;
+  width: 2.5em;
+  border-radius: 2.5px;
+  position: relative;
+}
+.nav-hamburger-check div::before ,
+.nav-hamburger-check div::after{
+  content: '';
+  position: absolute;
+}
+.nav-hamburger-check div::before{
+  bottom: 7px;
+}
+.nav-hamburger-check div::after{
+ top: 7px;
+}
+nav{
+  position: absolute;
+  background-color: var(--color4);
+  text-align: left;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 450ms ease-in-out;
+}
+nav ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+nav li{
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+nav a{
+  color: #f0ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+nav a:hover{
+  color: #9ddbb0;
+
+}
+.nav-hamburger:checked ~ nav{
+  transform: scale(1,1);
+}
+.nav-hamburger:checked ~ nav a {
+  opacity: 1; 
+  transition: opacity 300ms ease-in-out 300ms;
+}
+
 .nav-hamburger-check{
   cursor: pointer;
-  display: block;
+  display: none;
 }
 .nav-hamburger-check div{
   width: 30px;
   height: 3px;
   margin: 7px 0;
   background:#470c14 ;
-
+}
+@media screen and (min-width: 800px){
+  .nav-hamburger-check{
+      display: none; 
+  }
+  header{
+    display: grid;
+    grid-template-columns: 1fr auto minmax(800px , 1fr) 1fr;
+  }
+  .logo{
+      grid-column: 1 / div 3;
+  }
+  nav{
+      all: unset;
+      grid-column: 3 / 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  nav ul{
+      display: flex;
+  }
+  nav li{
+      margin: left 3em;
+      margin-bottom: 5;   
+  }
+  nav a{
+      opacity: 1;
+      position: relative;
+  }
+  nav a::before{
+      content: '';
+      display: block;
+      height: 5px;
+      background: brown;
+      position: absolute;
+      top: -75em;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transform-origin: left;
+      transition: transform ease-in-out 300ms;
+  }
+  nav a:hover::before{
+      transform: scale(1, 1);
+  }
 }
