@@ -73,16 +73,17 @@ header nav li a:hover{
   margin-left: 1em;
   border: 1px #8b4513;
   height: 100%;
+  
 }
 .nav-hamburger-check div,
 .nav-hamburger-check div::before ,
 .nav-hamburger-check div::after{
   display: block;
-  background: #f0ffff;
+  background: #60c9c9;
   height: 2.5px;
   width: 2.5em;
-  border-radius: 2.5px;
-  position: relative;
+  border-radius: 2px;
+  position: absolute;
 }
 .nav-hamburger-check div::before ,
 .nav-hamburger-check div::after{
@@ -129,24 +130,25 @@ nav a:hover{
 }
 .nav-hamburger:checked ~ nav{
   transform: scale(1,1);
+  display: block;
 }
 .nav-hamburger:checked ~ nav a {
   opacity: 1; 
   transition: opacity 300ms ease-in-out 300ms;
 }
 
-.nav-hamburger-check{
+.nav-hamburger{
   cursor: pointer;
   display: none;
 }
-.nav-hamburger-check div{
+.nav-hamburger div{
   width: 30px;
   height: 3px;
   margin: 7px 0;
   background:#470c14 ;
 }
 @media screen and (min-width: 800px){
-  .nav-hamburger-check{
+  .nav-hamburger{
       display: none; 
   }
   header{
