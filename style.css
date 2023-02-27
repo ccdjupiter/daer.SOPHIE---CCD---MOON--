@@ -191,13 +191,22 @@ nav a:hover{
       transform: scale(1, 1);
   }
 }
-h2 {
+h2{
   font-size: 3rem;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:'David Libre', serif;
   color: #1f6434;
   text-align: center;
   font-weight: 300;
   font-size: 50px;
   padding-top: 75px;
   padding-bottom: 75px;
+}
+h3, h4, p{
+  font-family:'David Libre', serif;
+  color: #1f6434;
+  text-align: left;
+  font-weight: 300;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-transform: none;
 }
