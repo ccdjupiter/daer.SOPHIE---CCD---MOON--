@@ -9,3 +9,8 @@ buttons.forEach( button =>{
         icon.classList.toggle('rotate');
     })
 } )
+
+// Define the menu icon click event
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.querySelector('.menu').classList.toggle('active');
+  });
