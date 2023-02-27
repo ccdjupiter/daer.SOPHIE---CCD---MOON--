@@ -27,6 +27,7 @@
   --color3: #f0f8ff;
   --color4: #bf5555;
   --color5: #b2dbe4;
+  --color6: #274b6c;
 }
 header{
   background: #f0f8ff;
@@ -84,20 +85,24 @@ h2 {
   font-size: 48px;
   color: #e0ece3;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   padding: 10px;
+  line-height: 2;
 }
 
 h3, h4{
   font-size: 15px;
   opacity: 0.7;
-  color:#bf5555;
-  text-align: left;
+  color:#274b6c;
+  text-align: center;
   padding: 20px;
   text-transform: none;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
 
-p {
+p, h5 {
   font-size: 13px;
   line-height: 1.5;
   color: green;
@@ -106,6 +111,4 @@ p {
 body{
   background-color: #b5aaaa;
 }
-main section h2{
-  text-transform: uppercase;
-}
+
