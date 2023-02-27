@@ -54,10 +54,14 @@ header nav li a:hover{
   background: #f0f8ff;
   color: #7da789;
 }
-.nav-hamburger{
+.nav-hamburger-check{
   cursor: pointer;
   display: block;
 }
-.nav-hamburger span{
-  
+.nav-hamburger-check div{
+  width: 30px;
+  height: 3px;
+  margin: 7px 0;
+  background:#470c14 ;
+
 }
