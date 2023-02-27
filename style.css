@@ -1,6 +1,22 @@
   @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
 
-  
+  *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'David Libre', serif;
+    text-transform: uppercase; 
+  }
+:root{
+  --background: var(--color4);
+}
+
+*::before , *::after{
+    box-sizing: border-box;
+}
 
 /*!-- navigation CSS Styling begins */ 
 .body{
@@ -10,88 +26,4 @@
   --color3: #f0f8ff;
   --color4: #bf5555;
   --color5: #b2dbe4;
-}
-
-h2{
-  font-size: 3rem;
-  font-family:'David Libre', serif;
-  color: #1f6434;
-  text-align: center;
-  font-weight: 300;
-  font-size: 50px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-h3, h4, p{
-  font-family:'David Libre', serif;
-  color: #1f6434;
-  text-align: left;
-  font-weight: 300;
-  padding-top: 15px;
-  padding-bottom: 25px;
-  text-transform: none;
-}
-
-/* experiement with menu bar navigation menu links */
-/* Style the menu-bar */
-.menu-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  list-style-type: none;
-}
-
-/* Style the links in the menu-bar */
-.menu-bar li a {
-  text-decoration: none;
-  padding: 0.5em 1em;
-  color: #333333;
-}
-
-/* Style the active link in the menu-bar */
-.menu-bar li a.active {
-  color: #990000;
-}
-
-/* Style the hamburger menu icon */
-.nav-hamburger-check::before {
-  content: #9776;
-  font-size: 2em;
-  cursor: pointer;
-}
-
-/* Hide the hamburger menu icon on larger screens */
-@media (min-width: 768px) {
-  .nav-hamburger-check {
-    display: none;
-  }
-}
-
-/* Style the navigation menu when hamburger menu is checked */
-#nav-hamburger:checked ~ nav {
-  display: block;
-}
-
-/* Style the navigation menu */
-nav {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: #f2f2f2;
-  border-top: 1px solid #cccccc;
-}
-
-/* Style the navigation menu links */
-nav a {
-  display: block;
-  padding: 0.5em 1em;
-  color: #333333;
-}
-
-/* Style the navigation menu active link */
-nav a.active {
-  color: #990000;
 }
