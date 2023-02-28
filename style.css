@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family:'David Libre', serif;
     text-transform: uppercase; 
+    scroll-behavior: smooth;
 
   }
 :root{
@@ -128,4 +129,27 @@ h2{
   text-transform: uppercase;
   padding: 10px;
   line-height: 2;
+}
+.index-banner{
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(media/pexels-tom-cordner-1423681.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+.content-center{
+  display: table-cell;
+  vertical-align: middle;
+  
+
+}
+.index-banner h2{
+  font-family:'David Libre', serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 9px #111;
 }
