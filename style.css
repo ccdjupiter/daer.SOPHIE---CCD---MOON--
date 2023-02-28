@@ -142,8 +142,6 @@ h2{
 .content-center{
   display: table-cell;
   vertical-align: middle;
-  
-
 }
 .index-banner h2{
   font-family:'David Libre', serif;
@@ -152,4 +150,10 @@ h2{
   line-height: 70px;
   text-align: center;
   text-shadow: 1px 1px 9px #111;
+}
+.index-linkbox div {
+  margin: 15px 15px 0;
+  width: calc(100% - 31px);
+  height: 100px;
+  background-color: #9a8d8d;
 }
