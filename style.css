@@ -81,15 +81,6 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
-  font-size: 48px;
-  color: #e0ece3;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px;
-  line-height: 2;
-}
-
 h3, h4{
   font-size: 15px;
   opacity: 0.7;
@@ -112,3 +103,29 @@ body{
   background-color: #b5aaaa;
 }
 
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0c3e1a;
+  flex-direction: column;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.about .about-content {
+  position: relative;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+h2{
+  font-size: 48px;
+  color: #e0ece3;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  line-height: 2;
+}
