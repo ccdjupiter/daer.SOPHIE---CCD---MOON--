@@ -156,6 +156,7 @@ h2{
   width: calc(100% - 31px);
   height: 100px;
   background-color: #9a8d8d;
+  cursor: pointer;
 }
 
 .index-linkbox div h3{
