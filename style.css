@@ -168,3 +168,45 @@ h2{
   text-transform: uppercase;
   color: #e0ece3;
 }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  padding: 40px 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+footer ul{
+width: fit-content;
+padding-left: 20px 20px;
+}
+ 
+.social-icons {
+  display: inline-block;
+  margin: 0 auto;
+}
+.icon {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  transform: translateY(-5px);
+}
+.icon i {
+  font-size: 24px;
+}
+.icon i.fa-facebook-f {
+  color: #3b5998;
+}
+.icon i.fa-twitter {
+  color: #55acee;
+}
+.icon i.fa-instagram {
+  color: #e4405f;
+}
+.footer{
+  align-items: left;
+}
