@@ -157,3 +157,13 @@ h2{
   height: 100px;
   background-color: #9a8d8d;
 }
+
+.index-linkbox div h3{
+  font-family:'David Libre', serif;
+  font-size: 28px;
+  font-weight: 500;
+  height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e0ece3;
+}
