@@ -210,22 +210,23 @@ padding-left: 20px 20px;
 .footer{
   align-items: left;
 }
-.accordion{
+.accordion {
   margin: 20px auto;
   width: 700px;
 }
-.accordion li{
+
+.accordion li {
   list-style: none;
   width: 100%;
   margin: 20px;
   padding: 10px;
   letter-spacing: 1.5px;
-  line-height: 5;
+  line-height: 2;
   background: #c1b8b8;
-  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.14),
-  -5px -5px 12px -1px rgba(224, 215, 215, 0.7);
+  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.14), -5px -5px 12px -1px rgba(224, 215, 215, 0.7);
 }
-.accordion li label{
+
+.accordion li label {
   display: flex;
   align-items: center;
   padding: 10px;
@@ -234,22 +235,34 @@ padding-left: 20px 20px;
   font-weight: bolder;
   color: #04611e;
 }
-.accordion li label:hover{
+
+.accordion li label:hover {
   color: #7da789;
   cursor: pointer;
 }
-label::before{
+
+label::before {
   content: '+';
   margin-right: 10px;
   font-size: 24px;
   font-weight: 800;
 }
-input[type='radio']{
+
+input[type='radio'] {
   display: none;
 }
-.accordion .accordion-content{
+
+.accordion .accordion-content {
   max-height: 0;
   line-height: 20px;
   padding: 0 10px;
   overflow: hidden;
+  transition: max-height 0.3s, padding 0.3s;
+}
+.accordion p{
+  color: #e9eef2;
+}
+input[type='radio']:checked + label + .accordion-content {
+  max-height: 700px;
+  padding: 10px;
 }
