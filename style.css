@@ -220,6 +220,7 @@ padding-left: 20px 20px;
   margin: 20px;
   padding: 10px;
   letter-spacing: 1.5px;
+  line-height: 5;
   background: #c1b8b8;
   box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.14),
   -5px -5px 12px -1px rgba(224, 215, 215, 0.7);
@@ -245,4 +246,10 @@ label::before{
 }
 input[type='radio']{
   display: none;
+}
+.accordion .accordion-content{
+  max-height: 0;
+  line-height: 20px;
+  padding: 0 10px;
+  overflow: hidden;
 }
