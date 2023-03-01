@@ -229,4 +229,10 @@ padding-left: 20px 20px;
   align-items: center;
   padding: 10px;
   letter-spacing: 2px;
+  font-size: 18px;
+  color: #04611e;
+}
+.accordion li label:hover{
+  color: #7da789;
+  cursor: pointer;
 }
