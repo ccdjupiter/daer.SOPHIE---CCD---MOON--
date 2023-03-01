@@ -238,4 +238,6 @@ label::before{
   font-size: 20px;
   font-weight: 700;
 }
-input[type]
+input[type="circle"]{
+  display: none;
+}
