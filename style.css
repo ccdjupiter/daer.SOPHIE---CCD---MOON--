@@ -133,7 +133,7 @@ h2{
 .index-banner{
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(media/pexels-tom-cordner-1423681.jpg);
+  background-image: url(media/pexels-kokokara-9266946.mp4);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,8 +161,10 @@ h2{
   text-shadow: 1px 1px 9px #111;
 }
  .index-linkbox div{
-  margin: 15px 15px 0;
-  height: 230px;
+  margin: 10px 10px 0;
+  height: 140px;
+  float: left;
+  text-align: center;
   background-color: #9a8d8d;
   position: relative;
   cursor: pointer;
