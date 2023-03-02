@@ -130,10 +130,20 @@ h2{
   padding: 10px;
   line-height: 2;
 }
+h6{
+  font-size: 18px;
+  color: #ffecfb;
+  text-align: center;
+  text-transform:none;
+  padding: 5px;
+  line-height: 2;
+  font-weight: lighter;
+}
+
 .index-banner{
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(media/pexels-kokokara-9266946.mp4);
+  background-image: url(media/pexels-đỗ-tâm-11430121.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -145,8 +155,10 @@ h2{
 }
 @media only screen and (min-width: 1000px){
   .wrapper{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
+    position: relative;
+
   }
   .index-banner{
     height: 450px;
@@ -166,12 +178,11 @@ h2{
   float: left;
   text-align: center;
   background-color: #9a8d8d;
-  position: relative;
   cursor: pointer;
 }
 
 .index-linkboxes-one{
-  width: calc(50% - 20px) !important;
+  width: calc(44% - 20px) !important;
   float: right 0;
 }
 .index-linkboxes-two{
