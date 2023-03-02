@@ -273,3 +273,10 @@ padding-left: 20px 20px;
 .accordion input[type='radio']:checked + label::before {
   content: '-';
 }
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url(media/moon\ pexels-hayana-fernanda-4987377\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+} 
