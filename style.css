@@ -143,6 +143,15 @@ h2{
   display: table-cell;
   vertical-align: middle;
 }
+@media only screen and (min-width: 1000px){
+  .wrapper{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .index-banner{
+    height: 450px;
+  }
+}
 .index-banner h2{
   font-family:'David Libre', serif;
   font-size: 48px;
@@ -168,6 +177,7 @@ h2{
   text-transform: uppercase;
   color: #e0ece3;
 }
+
 footer {
   background-color: #333;
   color: #fff;
