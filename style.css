@@ -158,7 +158,8 @@ h6{
     width: 900px;
     margin: 0 auto;
     position: relative;
-
+    float: 2 left;
+    padding-top: 30px;
   }
   .index-banner{
     height: 450px;
@@ -174,8 +175,7 @@ h6{
 }
  .index-linkbox div{
   margin: 10px 10px 0;
-  height: 140px;
-  float: left;
+  height: 100px;
   text-align: center;
   background-color: #9a8d8d;
   cursor: pointer;
@@ -183,15 +183,15 @@ h6{
 
 .index-linkboxes-one{
   width: calc(44% - 20px) !important;
-  float: right 0;
+  float: right;
 }
 .index-linkboxes-two{
   width: calc(28% - 20px);
-  float: left 0;
+  float: right;
 }
 .index-linkboxes-three{
   width: calc(28% - 20px);
-  float: right 0;
+  float: right;
 }
 
 .index-linkbox div h3{
@@ -211,7 +211,7 @@ footer {
   text-align: center;
   padding: 40px 40px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 150px;
 }
 footer ul{
 width: fit-content;
