@@ -211,7 +211,7 @@ padding-left: 20px 20px;
   align-items: left;
 }
 .accordion {
-  margin: 20px auto;
+  margin: 0px auto;
   width: 700px;
 }
 
@@ -227,6 +227,7 @@ padding-left: 20px 20px;
 
 .accordion li label {
   display: flex;
+  position: relative;
   align-items: center;
   padding: 10px;
   letter-spacing: 2px;
@@ -242,7 +243,7 @@ padding-left: 20px 20px;
 
 .accordion-label::before {
   content: '+';
-  margin-right: 10px;
+  margin-right: 20px;
   font-size: 24px;
   font-weight: 800;
 }
@@ -269,13 +270,6 @@ padding-left: 20px 20px;
   padding: 10px;
 }
 
-.accordion input[type='radio']:checked + .accordion-label + .accordion-content::before {
+.accordion input[type='radio']:checked + label::before {
   content: '-';
-  margin-right: 10px; 
-  font-size: 24px;
-  font-weight: 800;
-  color: #04611e;
-}
-.accordion-label {
-  position: relative;
 }
