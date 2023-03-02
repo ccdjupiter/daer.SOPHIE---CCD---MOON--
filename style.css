@@ -87,7 +87,7 @@ h3, h4{
   opacity: 0.7;
   color:#274b6c;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   text-transform: none;
   font-style: italic;
   letter-spacing: 2px;
@@ -151,7 +151,7 @@ h2{
   text-align: center;
   text-shadow: 1px 1px 9px #111;
 }
-.index-linkbox div {
+ .index-linkbox div {
   margin: 15px 15px 0;
   width: calc(100% - 31px);
   height: 100px;
@@ -163,7 +163,7 @@ h2{
   font-family:'David Libre', serif;
   font-size: 28px;
   font-weight: 500;
-  height: 100px;
+  line-height: 85px;
   text-align: center;
   text-transform: uppercase;
   color: #e0ece3;
@@ -305,7 +305,8 @@ input, textarea{
 .litle {
   text-align: center;
   color: #04611e;
-  justify-content: end;
+  padding: 10px;
+  letter-spacing: 2px;
 }
 label{
   height: 100%;
