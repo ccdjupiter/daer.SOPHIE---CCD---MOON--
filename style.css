@@ -160,12 +160,25 @@ h2{
   text-align: center;
   text-shadow: 1px 1px 9px #111;
 }
- .index-linkbox div {
+ .index-linkbox div{
   margin: 15px 15px 0;
-  width: calc(100% - 31px);
-  height: 100px;
+  height: 230px;
   background-color: #9a8d8d;
+  position: relative;
   cursor: pointer;
+}
+
+.index-linkboxes-one{
+  width: calc(50% - 20px) !important;
+  float: right 0;
+}
+.index-linkboxes-two{
+  width: calc(28% - 20px);
+  float: left 0;
+}
+.index-linkboxes-three{
+  width: calc(28% - 20px);
+  float: right 0;
 }
 
 .index-linkbox div h3{
