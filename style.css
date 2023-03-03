@@ -115,13 +115,7 @@ body{
   font-weight: 500;
   letter-spacing: 2px;
 }
-.about .about-content {
-  position: relative;
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-}
+
 h2{
   font-size: 48px;
   color: #e0ece3;
