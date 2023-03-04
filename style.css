@@ -85,13 +85,13 @@ h1 {
 h3, h4{
   font-size: 15px;
   opacity: 0.7;
-  color:#274b6c;
+  color:#eaf1f8;
   text-align: center;
   padding: 10px;
   text-transform: none;
-  font-style: italic;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   line-height: 25px;
+  font-weight: 200;
 }
 
 p, h5 {
@@ -199,9 +199,9 @@ h6{
 }
 
 footer {
-  background-color: #333;
+  background-color: #1c4321;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   padding: 40px 40px;
   width: 100%;
@@ -209,7 +209,7 @@ footer {
 }
 footer ul{
 width: fit-content;
-padding-left: 20px 20px;
+padding-left: 10px 10px;
 }
  
 .social-icons {
@@ -229,13 +229,13 @@ padding-left: 20px 20px;
   font-size: 24px;
 }
 .icon i.fa-facebook-f {
-  color: #3b5998;
+  color: #fcfdff;
 }
 .icon i.fa-twitter {
-  color: #55acee;
+  color: #fcfeff;
 }
 .icon i.fa-instagram {
-  color: #e4405f;
+  color: #fffafb;
 }
 .footer{
   align-items: left;
@@ -348,15 +348,74 @@ label{
   color: #ffffff;
   letter-spacing: 2px;
 }
-button{
+.button a {
   padding: 10px 0;
   color: #e0ece3;
   outline: none;
   background: transparent;
-  border: 2px solid #b5aaaa;
   width: 100%;
   cursor: pointer;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+}
+.buttons a{
+  padding: 10px 0;
+  color: #e0ece3;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+
 }
 
+.image-container {
+  margin-left: 30px;
+  width: 70%;
+  padding-top: 30px;
 
+}
+
+img {
+  max-width: 55%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+.text-container {
+  width: 70%;
+  text-align: justify;
+}
+h1{
+  color: #044f15;
+  text-align: center;
+  font-size: 58px;
+  font-family:'David Libre', serif;
+  padding-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+.text-container h2{
+ font-size: 23px;
+ padding-bottom: 20px;
+ color: #111;
+ text-transform: none;
+}
+.three {
+  color: #f9f4f6;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 4px;
+}
+  
