@@ -137,7 +137,7 @@ h6{
 .index-banner{
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(media/pexels-đỗ-tâm-11430121.jpg);
+  background-image: url(media/book.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,7 +234,10 @@ padding-left: 10px 10px;
 .icon i.fa-twitter {
   color: #fcfeff;
 }
-.icon i.fa-instagram {
+.icon i.fa-instagram{
+  color: #fffafb;
+}
+.icon i.fa-youtube{
   color: #fffafb;
 }
 .footer{
