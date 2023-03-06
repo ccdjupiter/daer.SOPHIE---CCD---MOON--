@@ -372,8 +372,8 @@ label{
 }
 
 input:focus~label{
-  top: -40px;
-  font-size: 14px;
+  top: -35px;
+  font-size: 15px;
 }
 
 
