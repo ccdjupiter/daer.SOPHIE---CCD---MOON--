@@ -422,9 +422,7 @@ h1{
   line-height: 4px;
 }
   
-main {
-  flex-grow: 1;
-}
+
 
 /* Blog cards */
 .blog-cards {
