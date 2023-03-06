@@ -373,7 +373,7 @@ label{
 
 input:focus~label{
   top: -35px;
-  font-size: 15px;
+  font-size: 1px;
 }
 
 
