@@ -10,7 +10,7 @@ buttons.forEach( button =>{
     })
 } )
 
-// Define the menu icon click event
+// Define the menu icon click event//
 document.querySelector('.menu-icon').addEventListener('click', function() {
     document.querySelector('.menu').classList.toggle('active');
   });
@@ -23,3 +23,5 @@ accordionHeaders.forEach(header => {
     accordionItem.classList.toggle('active');
   });
 });
+
+
