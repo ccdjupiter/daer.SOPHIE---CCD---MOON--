@@ -371,11 +371,26 @@ label{
   letter-spacing: 2px;
 }
 
-input:focus~label{
-  top: -35px;
-  font-size: 1px;
+.inputs input:focus + label {
+  transform: translateY(-20px);
+  color: #4978D6;
 }
 
+.inputs input:focus + label i {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 .container {
   display: flex;
