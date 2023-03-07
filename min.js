@@ -78,3 +78,11 @@ form.addEventListener('submit', (e) => {
   xhr.send(JSON.stringify(data));
 });
 
+// select the contact box element
+const inputs = $('.inputs');
+
+// add a click event listener
+inputs.click(() => {
+  // add the class that triggers the animation
+ inputs.addClass('animate');
+});

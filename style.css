@@ -97,9 +97,9 @@ h3, h4{
 p, h5 {
   font-size: 13px;
   line-height: 1.5;
-  color: #f9f4f6;
+  color: #f4eaee;
   text-transform: none;
-  text-align: center;
+  text-align: justify;
 }
 body{
   background-color: #b5aaaa;
@@ -377,7 +377,7 @@ label{
   color: #4978D6;
 }
 
-.inputs input:focus + label i {
+.inputs input:focus + label  {
   animation: bounce 0.5s linear;
 }
 
@@ -497,6 +497,8 @@ h1{
 .card p {
   font-size: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
+  color: #5f6f74;
 }
 
 .card-meta {
@@ -508,6 +510,7 @@ h1{
 .card-meta p {
   font-size: 0.8rem;
   color: #e1c0c5;
+
 }
 
 .card .like-button {
