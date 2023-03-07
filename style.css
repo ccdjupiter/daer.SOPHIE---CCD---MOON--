@@ -97,7 +97,7 @@ h3, h4{
 p, h5 {
   font-size: 13px;
   line-height: 1.5;
-  color: green;
+  color: #f9f4f6;
   text-transform: none;
 }
 body{
@@ -337,7 +337,7 @@ input, textarea{
 }
 .title {
   text-align: center;
-  color: #04611e;
+  color: #f9f4f6;
   padding: 10px;
   letter-spacing: 2px;
 }
@@ -444,10 +444,7 @@ h1{
   letter-spacing: 2px;
   line-height: 4px;
 }
-  
-
-
-/* Blog cards */
+  /* Blog cards */
 .blog-cards {
   display: flex;
   flex-wrap: wrap;
