@@ -25,64 +25,37 @@ accordionHeaders.forEach(header => {
 });
 
 
-const form = document.querySelector('form');
-const firstName = form.querySelector('#firstName');
-const email = form.querySelector('#email');
-const number = form.querySelector('#number');
-const message = form.querySelector('#message');
+const form = document.getElementById("contact-form");
+const statusMessage = document.getElementById("status-message");
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
+form.addEventListener("submit", submitForm);
 
-  // handle form validation
-  if (firstName.value.trim() === '') {
-    alert('Please enter your first name');
+function submitForm(event) {
+  event.preventDefault();
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  if (!isValidEmail(email)) {
+    statusMessage.innerHTML = "Please enter a valid email address.";
     return;
   }
 
-  if (email.value.trim() === '') {
-    alert('Please enter your email');
-    return;
-  }
+  sendEmail(name, email, message);
+}
 
-  if (number.value.trim() === '') {
-    alert('Please enter your phone number');
-    return;
-  }
+function isValidEmail(email) {
+  const re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
 
-  if (message.value.trim() === '') {
-    alert('Please enter your message');
-    return;
-  }
+function sendEmail(name, email, message) {
+  // Replace with code that sends the email
+  // For example, using an API or a server-side script
 
-  // prepare data to be sent to the server
-  const data = {
-    firstName: firstName.value.trim(),
-    email: email.value.trim(),
-    number: number.value.trim(),
-    message: message.value.trim(),
-  };
-
-  // send form data to the server using AJAX
-  const xhr = new XMLHttpRequest();
-  xhr.open('POST', '/sendmessage', true);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.onload = function() {
-    if (this.status === 200) {
-      alert('Message sent successfully');
-      form.reset();
-    } else {
-      alert('Failed to send message');
-    }
-  };
-  xhr.send(JSON.stringify(data));
-});
-
-// select the contact box element
-const inputs = $('.inputs');
-
-// add a click event listener
-inputs.click(() => {
-  // add the class that triggers the animation
- inputs.addClass('animate');
-});
+  // This is just an example for demonstration purposes
+  setTimeout(() => {
+    statusMessage.innerHTML = "Message sent successfully!";
+    form.reset();
+  }, 2000);
+}
