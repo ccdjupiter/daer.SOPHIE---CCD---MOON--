@@ -265,13 +265,13 @@ padding-left: 10px 10px;
   align-items: center;
   padding: 10px;
   letter-spacing: 2px;
-  font-size: 18px;
-  font-weight: bolder;
-  color: #04611e;
+  font-size: 14px;
+  font-weight:500;
+  color: #8a968d;
 }
 
 .accordion li label:hover {
-  color: #7da789;
+  color: #4e7057;
   cursor: pointer;
 }
 
