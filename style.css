@@ -307,6 +307,7 @@ padding-left: 10px 10px;
 .accordion input[type='radio']:checked + label::before {
   content: '-';
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -348,7 +349,7 @@ h1{
 .text-container h2{
  font-size: 23px;
  padding-bottom: 20px;
- color: #111;
+ color: #ffffff;
  text-transform: none;
 }
 .three {
@@ -430,5 +431,4 @@ h1{
 .card .like-button {
   display: block;
 }
-
 
