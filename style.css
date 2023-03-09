@@ -58,7 +58,7 @@ header nav ul{
 header nav li a{
   color:#bf5555;
   padding: 3px 28px;
-  margin: 0 10px;
+  margin: 0 40px;
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
@@ -453,7 +453,7 @@ form{
 input, textarea, label{
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   color: #cd853f;
   padding-top: 20px;
 }
