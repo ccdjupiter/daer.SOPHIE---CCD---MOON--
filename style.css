@@ -482,6 +482,7 @@ input, textarea{
   text-transform: none;
   padding: 10px;
 }
-input:focus{
-  
+input:focus, textarea:focus{
+  outline: 1px solid #ebe6e6;
+
 }
