@@ -454,7 +454,7 @@ input, textarea, label{
   display: block;
   margin: 0 auto;
   width: 80%;
-  color: peru;
+  color: #cd853f;
   padding-top: 20px;
 }
 input, textarea{
@@ -462,4 +462,26 @@ input, textarea{
   border: 0;
   border-bottom: 1px solid #ebe6e6;
 }
-
+input[type=submit]{
+  background-color:#78481c;
+  font-size: 18px;
+  padding: 15px 0;
+  color: #d3e0eb;
+  border-bottom: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+input[type=submit]:hover{
+background: #ffffff;
+color: #a0c7a9;
+}
+input, textarea{
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: none;
+  padding: 10px;
+}
+input:focus{
+  
+}
