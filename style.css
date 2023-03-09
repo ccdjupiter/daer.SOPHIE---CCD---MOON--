@@ -486,10 +486,16 @@ input:focus, textarea:focus{
   outline: 1px solid #ebe6e6;
 }
 .contacting{
-  font-size: 30px;
+  font-size: 25px;
   padding: 15px 0;
   color: #d3e0eb;
   text-align: center;
   border-bottom: none;
-  margin-top: 250px;
+  margin-top: 220px;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+  border: 0;
+  border-bottom: 1px solid #ebe6e6;
 }
