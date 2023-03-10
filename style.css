@@ -57,8 +57,8 @@ header nav ul{
 }
 header nav li a{
   color:#bf5555;
-  padding: 3px 35px;
-  margin: 0 29px;
+  padding: 3px 30px;
+  margin: 0 20px;
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
@@ -323,7 +323,6 @@ icon i.fa-envelope-circle-check{
   justify-content: center;
   align-items: center;
   margin-left: 70px;
-
 }
 
 .image-container {
@@ -480,6 +479,7 @@ input[type=submit]{
   margin-top: 20px;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  text-transform: uppercase;
 }
 input[type=submit]:hover{
 background: #ffffff;
