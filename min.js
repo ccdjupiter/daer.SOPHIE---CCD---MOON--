@@ -69,7 +69,6 @@ function sendEmail(){
     subject:document.getElementById("subject").value ,
     budget:document.getElementById("budget").value ,
   };
-}
 
 const serviceID = "service_9tj7u3b";
 const templateID = "template_4ituisl";
@@ -81,8 +80,11 @@ emailjs.send(serviceID, templateID, params)
     document.getElementById("email").value ="";
     document.getElementById("subject").value ="";
     document.getElementById("budget").value ="";
-    document.getElementById("name").value ="";
-
+    console.log(res);
+    alert("You Message Has Successfully Been Sent!✨");
   }
 )
+.catch(error=>console.log(Error));
+}
+
 
