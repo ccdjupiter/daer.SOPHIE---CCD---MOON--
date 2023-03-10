@@ -74,6 +74,15 @@ function sendEmail(){
 const serviceID = "service_9tj7u3b";
 const templateID = "template_4ituisl";
 
-
 emailjs.send(serviceID, templateID, params)
+.then(
+  res =>{
+    document.getElementById("name").value ="";
+    document.getElementById("email").value ="";
+    document.getElementById("subject").value ="";
+    document.getElementById("budget").value ="";
+    document.getElementById("name").value ="";
+
+  }
+)
 
