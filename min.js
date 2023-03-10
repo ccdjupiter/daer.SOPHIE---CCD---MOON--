@@ -71,5 +71,7 @@ function sendEmail(){
   };
 }
 
-const serviceID = "service_9tj7u3b"
+const serviceID = "service_9tj7u3b";
+const templateID = "template_4ituisl";
+
 
