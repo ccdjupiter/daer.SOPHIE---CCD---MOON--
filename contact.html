@@ -28,6 +28,7 @@
 </head>
 <!-- Begining of body -->
 <body>
+<!-- Begining of header -->
     <header>
       <a href="#" class="logo">daer.SOPHIE JUPITER ROSEBUD</a>
       <nav>
@@ -60,9 +61,9 @@
               </label>          
         </nav>
     </header>
+<!-- Ending of header -->
 
-
-<h2 class="litle">Work Inquiry</h2>
+<!-- Begining of contact-form page -->
 <div class="container-s">
   <h6 class="title">Let's work together</h6>
   <p class="title">Thank you for reaching out. We'll get back to you as soon as we can!</p>
@@ -75,9 +76,20 @@
   <input type="text" name="subject" id="subject">
   <label for="Message">Message</label>
   <textarea name="message" cols="30" rows="10"></textarea>
-<input type="submit" value="Send Message">
-</form>
-</div>
+  <div class="row mb-3">
+<!-- Begining of budget-form column with rates -->
+  <label for="budget" class="col-form-label">Budget</label>
+  <select class="custom-select" id="budget" name="budget">
+  <option selected>Choose...</option>
+  <option value="$1000 below">$1,000</option>
+  <option value="$2,000 - $5,000">$2,000 - $5,000</option>
+  <option value="$5,000 - $15,000">$5,000 - $15,000</option>
+  <option value="$15,000 - $25,000">$15,000 - $25,000</option>
+  <option value="$25,000 >">$25,000 ></option>
+  </select>
+  <input type="submit" value="Send Message">
+<!-- Ending of contact-form page -->
+
     <script src="min.js"></script> 
 </body>
 </html>

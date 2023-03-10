@@ -150,7 +150,7 @@ h6{
 }
 @media only screen and (min-width: 1000px){
   .wrapper{
-    width: 900px;
+    width: 100px;
     margin: 0 auto;
     position: relative;
     float: 2 left;
@@ -206,7 +206,7 @@ footer {
   text-align: center;
   padding: 40px 40px;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 footer ul{
 width: fit-content;
@@ -240,6 +240,15 @@ padding-left: 10px 10px;
 }
 .icon i.fa-youtube{
   color: #fffafb;
+}
+.icon i.fa-blogger{
+  color: #fffafb; 
+}
+.icon i.fa-spotify{
+  color: #fffafb; 
+}
+icon i.fa-envelope-circle-check{
+  color: #fffafb; 
 }
 .footer{
   align-items: left;
@@ -444,13 +453,13 @@ h1{
   margin: 0 auto;
   padding: 5px;
 }
-form{
+form, option{
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
   padding: 20px 0;
 }
-input, textarea, label{
+input, textarea, label, option, .custom-select{
   display: block;
   margin: 0 auto;
   width: 90%;
@@ -499,3 +508,12 @@ input:focus, textarea:focus{
   border: 0;
   border-bottom: 1px solid #ebe6e6;
 }
+
+.custom-select {
+  height: 60px; }
+
+.custom-select:active, .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
