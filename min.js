@@ -59,3 +59,15 @@ function sendEmail(name, email, message) {
     form.reset();
   }, 2000);
 }
+
+
+  // This is for email funtion of sending mail to recipient
+function sendEmail(){
+  var params = {
+    name:document.getElementById("name").value ,
+    email:document.getElementById("email").value ,
+    subject:document.getElementById("subject").value ,
+    budget:document.getElementById("budget").value ,
+  }
+}
+
