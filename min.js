@@ -75,3 +75,5 @@ const serviceID = "service_9tj7u3b";
 const templateID = "template_4ituisl";
 
 
+emailjs.send(serviceID, templateID, params)
+
