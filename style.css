@@ -228,13 +228,7 @@ padding-left: 10px 10px;
 .icon i {
   font-size: 24px;
 }
-.icon i.fa-facebook-f {
-  color: #fcfdff;
-}
-.icon i.fa-twitter {
-  color: #fcfeff;
-}
-.icon i.fa-instagram{
+.icon i.fa-github{
   color: #fffafb;
 }
 .icon i.fa-youtube{
@@ -244,9 +238,6 @@ padding-left: 10px 10px;
   color: #fffafb; 
 }
 .icon i.fa-spotify{
-  color: #fffafb; 
-}
-icon i.fa-envelope-circle-check{
   color: #fffafb; 
 }
 .footer{
