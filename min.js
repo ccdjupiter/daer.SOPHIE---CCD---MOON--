@@ -1,21 +1,21 @@
 const buttons = document.querySelectorAll('button');
 
-buttons.forEach( button =>{
-    button.addEventListener('click',()=>{
-        const faq = button.nextElementSibling;
-        const icon = button.children[1];
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const faq = button.nextElementSibling;
+    const icon = button.children[1];
 
-        faq.classList.toggle('show');
-        icon.classList.toggle('rotate');
-    })
-} )
+    faq.classList.toggle('show');
+    icon.classList.toggle('rotate');
+  })
+})
 
 // Define the menu icon click event//
-document.querySelector('.menu-icon').addEventListener('click', function() {
-    document.querySelector('.menu').classList.toggle('active');
-  });
+document.querySelector('.menu-icon')?.addEventListener('click', function () {
+  document.querySelector('.menu').classList.toggle('active');
+});
 
-  const accordionHeaders = document.querySelectorAll('.accordion-header');
+const accordionHeaders = document.querySelectorAll('.accordion-header');
 
 accordionHeaders.forEach(header => {
   header.addEventListener('click', () => {
@@ -49,42 +49,28 @@ function isValidEmail(email) {
   return re.test(email);
 }
 
-function sendEmail(name, email, message) {
-  // Replace with code that sends the email
-  // For example, using an API or a server-side script
-
-  // This is just an example for demonstration purposes
-  setTimeout(() => {
-    statusMessage.innerHTML = "Message sent successfully!";
-    form.reset();
-  }, 2000);
-}
-
-
-  // This is for email funtion of sending mail to recipient
-function sendEmail(){
+// This is for email funtion of sending mail to recipient
+function sendEmail() {
   var params = {
-    name:document.getElementById("name").value ,
-    email:document.getElementById("email").value ,
-    subject:document.getElementById("subject").value ,
-    budget:document.getElementById("budget").value ,
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    budget: document.getElementById("budget").value,
   };
 
-const serviceID = "service_9tj7u3b";
-const templateID = "template_4ituisl";
+  const serviceID = "service_9tj7u3b";
+  const templateID = "template_4ituisl";
 
-emailjs.send(serviceID, templateID, params)
-.then(
-  res =>{
-    document.getElementById("name").value ="";
-    document.getElementById("email").value ="";
-    document.getElementById("subject").value ="";
-    document.getElementById("budget").value ="";
-    console.log(res);
-    alert("You Message Has Successfully Been Sent!✨");
-  }
-)
-.catch(error=>console.log(Error));
+  emailjs.send(serviceID, templateID, params)
+    .then(
+      res => {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("budget").value = "";
+        console.log(res);
+        alert("You Message Has Successfully Been Sent!✨");
+      }
+    )
+    .catch(error => console.log(Error));
 }
-
-

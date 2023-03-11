@@ -75,7 +75,7 @@
 <div class="container-s">
   <h6 class="title">Let's work together</h6>
   <p class="title">Thank you for reaching out. We'll get back to you as soon as we can!</p>
-<form action="email.php" method="POST">
+<form id="contact-form" action="email.php" method="POST">
   <label for="name">Your Name</label>
   <input type="text" name="name" id="name">
   <label for="email">Email</label>
@@ -83,7 +83,7 @@
   <label for="subject">Subject</label>
   <input type="text" name="subject" id="subject">
   <label for="Message">Message</label>
-  <textarea name="message" cols="30" rows="10"></textarea>
+  <textarea name="message" id="message" cols="30" rows="10"></textarea>
   <div class="row mb-3">
 <!-- Begining of budget-form column with rates -->
   <label for="budget" class="col-form-label">Budget</label>
@@ -95,7 +95,9 @@
   <option value="$15,000 - $25,000">$15,000 - $25,000</option>
   <option value="$25,000 >">$25,000 ></option>
   </select>
-  <input type="submit" value="Send Message" onclick="SendEmail">
+  <input type="submit" value="Send Message">
+  </div>
+</form>
 <!-- Ending of contact-form page -->
 
     <script src="min.js"></script> 
