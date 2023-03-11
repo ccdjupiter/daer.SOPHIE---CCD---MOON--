@@ -55,6 +55,7 @@ function sendEmail() {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
     budget: document.getElementById("budget").value,
   };
 
@@ -67,6 +68,7 @@ function sendEmail() {
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
         document.getElementById("budget").value = "";
         console.log(res);
         alert("You Message Has Successfully Been Sent!✨");
