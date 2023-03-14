@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
   *{
     padding: 0;
@@ -7,10 +8,9 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family:'David Libre', serif;
+    font-family: 'Playfair Display', serif;
     text-transform: uppercase; 
     scroll-behavior: smooth;
-
   }
 :root{
   --background: var(--color4);
@@ -43,7 +43,7 @@ header{
 }
  .logo{
   margin: 0;   
-  color:#bf5555;
+  color:#ccb9a8;
   font-size: 20px;
   text-transform: none;
   font-weight: 500;
@@ -56,7 +56,7 @@ header nav ul{
   display: flex;
 }
 header nav li a{
-  color:#bf5555;
+  color:#cda68a;
   padding: 3px 35px;
   margin: 0 29px;
   font-weight: bold;
@@ -69,7 +69,7 @@ header nav li a{
 }
 header nav li a:hover{
   background: #f0f8ff;
-  color: #7da789;
+  color: #ccb9a8;
 }
 
 h1,
@@ -97,9 +97,10 @@ h3, h4{
 p, h5 {
   font-size: 13px;
   line-height: 1.5;
-  color: #f4eaee;
+  color: #e9eef2;
   text-transform: none;
   text-align: justify;
+  letter-spacing: 1px;
 }
 body{
   background-color: #b5aaaa;
@@ -114,7 +115,7 @@ body{
   flex-direction: column;
   position: relative;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h2{
@@ -162,7 +163,7 @@ h6{
   }
 }
 .index-banner h2{
-  font-family:'David Libre', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 70px;
@@ -191,7 +192,7 @@ h6{
 }
 
 .index-linkbox div h3{
-  font-family:'David Libre', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 85px;
@@ -338,7 +339,7 @@ h1{
   color: #044f15;
   text-align: center;
   font-size: 58px;
-  font-family:'David Libre', serif;
+  font-family: 'Playfair Display', serif;
   padding-top: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -346,14 +347,17 @@ h1{
 }
 .text-container h2{
  font-size: 23px;
- padding-bottom: 20px;
+ padding-bottom: 10px;
  color: #ffffff;
  text-transform: none;
 }
 .three {
-  color: #f9f4f6;
+  color: #AEC2B6;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ECF2FF;
+
   font-weight: 100;
   letter-spacing: 2px;
   line-height: 4px;
@@ -404,14 +408,14 @@ h1{
 .card h2 {
   font-size: 1.5rem;
   margin-top: 0.5rem;
-  color: #7f6464;
+  color: #cd853f;
+  font-weight: bolder;
 }
 
 .card p {
-  font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  color: #5f6f74;
+  color: #AEC2B6;
 }
 
 .card-meta {
@@ -421,8 +425,7 @@ h1{
 }
 .card-meta p {
   font-size: 0.8rem;
-  color: #e1c0c5;
-
+  color: #3f4e52;
 }
 .card .like-button {
   display: block;
@@ -435,7 +438,7 @@ h1{
 }
 
 .title p, input, textarea, label{
-  font-family:'David Libre', serif;
+    font-family: 'Playfair Display', serif;
 }
 .container-s{
   max-width: 1330px;
@@ -485,7 +488,7 @@ input:focus, textarea:focus{
   outline: 1px solid #ebe6e6;
 }
 .middle{
-  color:#95a8e4;
+  color:#cd853f;
 }
 .contacting{
   font-size: 25px;
