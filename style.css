@@ -322,7 +322,6 @@ padding-left: 10px 10px;
   padding-top: 30px;
 
 }
-
 img {
   max-width: 55%;
   height: auto;
@@ -347,7 +346,9 @@ h1{
 }
 em{
   font-weight: bolder;
+  text-transform: none;
   color: #78481c;
+
 }
 .text-container h2{
  font-size: 23px;
