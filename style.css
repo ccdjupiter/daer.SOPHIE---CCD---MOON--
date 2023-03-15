@@ -345,6 +345,10 @@ h1{
   letter-spacing: 4px;
   font-weight: 300;
 }
+em{
+  font-weight: bolder;
+  color: #78481c;
+}
 .text-container h2{
  font-size: 23px;
  padding-bottom: 10px;
