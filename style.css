@@ -322,6 +322,14 @@ padding-left: 10px 10px;
   padding-top: 30px;
 
 }
+.imagess{
+  max-width: 65%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
 img {
   max-width: 55%;
   height: auto;
