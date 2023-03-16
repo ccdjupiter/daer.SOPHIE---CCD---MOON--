@@ -46,7 +46,18 @@ header{
   color:#ccb9a8;
   font-size: 20px;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.logo:hover{
+  margin: 0;   
+  color:#9a2a2a;
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
   display: inline-block;
