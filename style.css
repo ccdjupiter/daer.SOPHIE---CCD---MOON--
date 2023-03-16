@@ -343,7 +343,7 @@ img {
   text-align: justify;
 }
 h1{
-  color: #044f15;
+  color: #78481c;
   text-align: center;
   font-size: 58px;
   font-family: 'Playfair Display', serif;
@@ -352,16 +352,15 @@ h1{
   letter-spacing: 4px;
   font-weight: 300;
 }
-em{
+em {
   font-weight: bolder;
   text-transform: none;
   color: #78481c;
-
 }
 .text-container h2{
  font-size: 23px;
  padding-bottom: 10px;
- color: #ffffff;
+ color: #78481c;
  text-transform: none;
 }
 .three {
@@ -445,9 +444,15 @@ em{
 }
 .title {
   text-align: center;
-  color: #f0e9ec;
+  color: #78481c;
   padding: 10px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+}
+.titles {
+  text-align: center;
+  color: #cd853f;
+  padding: 10px;
+  letter-spacing: 4px;
 }
 
 .title p, input, textarea, label{
