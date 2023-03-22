@@ -465,6 +465,15 @@ em {
   padding: 10px;
   letter-spacing: 4px;
 }
+.pa{
+  color: #78481c;
+  text-transform: none;
+  size: 14px;
+  font-weight: 700;
+}
+.pa:hover{
+  color: #ffffff;
+}
 
 .title p, input, textarea, label{
     font-family: 'Playfair Display', serif;
